@@ -195,10 +195,10 @@ export default function Home() {
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row"><a href={fileLink} target="_blank">{fileName}</a></th>
+                      <th scope="row"><a href={fileLink} target="_blank" rel="noreferrer">{fileName}</a></th>
                       <td>{fileType}</td>
                       <td>{fileSize}</td>
-                      <td> <a href={fileLink} target="_blank" download> <FaLink /></a> </td>
+                      <td> <a href={fileLink} target="_blank" rel="noreferrer" download> <FaLink /></a> </td>
                     </tr>
                   </tbody>
                 </table>
